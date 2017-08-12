@@ -1,0 +1,84 @@
+#sidemenukey{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 64px;
+  width: 64px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#sidemenuicon{
+  height: 32px;
+  width: 32px;
+  padding: 16px;
+}
+
+#pagename{
+  position: fixed;
+  top: 0px;
+  left: 64px;
+  height: 32px;
+  padding: 16px;
+  width: 256px;
+  font-size: 28px;
+  color: #000;
+  z-index: 2;
+}
+
+#k-sideberbox{
+  position: fixed;
+  top: 0px;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  background-color: #f5f5f5;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.15);
+  z-index: 4;
+}
+
+#name{
+  height: 48px;
+  padding: 8px;
+}
+
+#sideber-pagename{
+  height: 24px;
+  padding: 12px;
+  font-size: 20px;
+  color: #000;
+  font-style: italic;
+  font-family: cursive;
+}
+
+#boderline{
+  height: 0px;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.k-sidebermenu{
+  height: 48px;
+  width: 184px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #f5f5f5;
+}
+
+#sidebermenu{
+  width: 200px;
+  height: 24px;
+  line-height: 26px;
+  color: #000;
+  font-size: 24px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+#sideber-icon{
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  padding: 12px;
+  float: left;
+  cursor: pointer;
+}

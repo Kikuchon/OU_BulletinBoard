@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+<meta charset="utf-8">
+<title>BulletinBoard</title>
+<meta name="viewport" content="width=device-width user-scalable=no">
+<script src="jQuery/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/sideber.js"></script>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/sideber.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/filter.css">
+</head>
+
+
+<body>
+  <!--ページネームHTML-->
+  <div class="mainbox" id="displayname">Home</div>
+
+  <!--ヘッダーHTML-->
+  <div class="k-header mainbox" id="k-header">
+    <!--左上部分HTML-->
+    <div class="k-header-leftbox">
+      <!--サイドバー起動スイッチHTML-->
+      <div class="k-sidemenu-key k-header-content" id="sidemenukey">
+        <img src="icon/menu-icon.svg" class="k-sidemenu-key" id="sidemenuicon">
+      </div>
+      <!--ぺージ名部分HTML-->
+      <div class="k-header k-header-content">
+        <div id="pagename">HOME</div>
+      </div>
+    </div>
+  </div>
+
+  <!--サイドバーHTML-->
+  <div class="k-sideber mainbox" id="k-sideberbox">
+    <!--サイドバー名HTML-->
+    <div class="k-sideber k-sideber-pagename" id="name">
+      <div id="sideber-pagename">BulletinBoard</div>
+    </div>
+    <!--区切り部分HTML-->
+    <div class="k-sideber k-sideber-boder" id="boderline"></div>
+    <!--ページ切り替えスイッチ部分HTML-->
+    <div class="k-sideber k-sidebermenu" id="Home">
+      <img src="icon/home-icon.svg" class="sideber-component" id="sideber-icon"></img>
+      <div class="sideber-component" id="sidebermenu">HOME</div>
+    </div>
+    <div class="k-sideber k-sidebermenu" id="Board">
+      <img src="icon/board-icon.svg" class="sideber-component" id="sideber-icon"></img>
+      <div class="sideber-component" id="sidebermenu">掲示板</div>
+    </div>
+    <div class="k-sideber k-sidebermenu" id="Link">
+      <img src="icon/list-icon.svg" class="sideber-component" id="sideber-icon"></img>
+      <div class="sideber-component" id="sidebermenu">リンク集</div>
+    </div>
+    <div class="k-sideber k-sidebermenu" id="Download">
+      <img src="icon/download-icon.svg" class="sideber-component" id="sideber-icon"></img>
+      <div class="sideber-component" id="sidebermenu">ダウンロード</div>
+    </div>
+  </div>
+
+
+  <!--フィルターHTML-->
+  <div class="k-filter"></div>
+
+  <!--メイン部分HTML-->
+  <div class="mainarea mainbox" id="mainarea">
+    <!--HomeページHTML-->
+    <div class="mainarea contentbox contentbox-Home" id="HomeBox">Home</div>
+    <!--Board部分HTML-->
+    <div class="mainarea contentbox contentbox-Board" id="BoardBox">
+      <div class="board-content"></div>
+    </div>
+    <!--Link部分HTML-->
+    <div class="mainarea contentbox contentbox-Link" id="LinkBox">
+      <div class="link-content" id="LinkcontentName">阪大公式サイト</div>
+      <div class="link-content">
+        <a href="https://koan.osaka-u.ac.jp/campusweb/campusportal.do?page=main" target="_blank" id="Linkcontent">KOAN</a>
+      </div>
+      <div class="link-content">
+        <a href="https://cle.koan.osaka-u.ac.jp/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_14_1" target="_blank" id="Linkcontent">CLE</a>
+      </div>
+      <div class="link-content">
+        <a href="https://my.osaka-u.ac.jp/" target="_blank" id="Linkcontent">マイハンダイ</a>
+      </div>
+      <div class="link-content">
+        <a href="http://www.osaka-u.ac.jp/ja" target="_blank" id="Linkcontent">大阪大学HP</a>
+      </div>
+      <div class="link-content" id="LinkcontentName">阪大非公式サイト</div>
+      <div class="link-content">
+        <a href="https://takumakawashiro.github.io/ou-cle/" target="_blank" id="Linkcontent">CLES</a>
+      </div>
+    </div>
+    <!--Download部分HTML-->
+    <div class="mainarea contentbox contentbox-Download" id="DownloadBox">Download</div>
+
+  </div>
+
+</body>
+
+</html>

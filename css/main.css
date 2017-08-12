@@ -1,0 +1,81 @@
+html{
+  height: 100vh;
+  width: 100vw;
+}
+
+
+body{
+  margin: 0px;
+}
+
+#displayname{
+  display: none;
+}
+
+#mainarea{
+  /*position: fixed;*/
+  padding-top: 64px;
+  left: 0px;
+  top: 64px;
+  background-color: #F5F5F5;
+  width: 100vw;
+  height: 100%;
+  min-height: -webkit-fill-available;
+}
+
+
+#HomeBox{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#BoardBox{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: none;
+}
+
+table{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 80vw;
+  background-color: #ffffff;
+}
+
+#LinkBox{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: none;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.link-content{
+  width: auto;
+  height: 48px;
+  line-height: 48px;
+}
+
+#Linkcontent{
+  height: 24px;
+  padding: 12px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#LinkcontentName{
+  height: 24px;
+  padding: 12px;
+  font-size: 24px;
+  font-style: oblique;
+}
+
+#DownloadBox{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: none;
+  background-color: #ffffff;
+  color: #000000;
+}
