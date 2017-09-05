@@ -8,6 +8,8 @@ body{
   margin: 0px;
 }
 
+
+
 #displayname{
   display: none;
 }
@@ -38,10 +40,16 @@ body{
 }
 
 table{
+  width: 80vw;
+  background-color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#homecontent{
   margin-top: 12px;
   margin-bottom: 12px;
   width: 80vw;
-  background-color: #ffffff;
 }
 
 #LinkBox{
