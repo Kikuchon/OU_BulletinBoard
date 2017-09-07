@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
   //load時のboardcontentの書き込み
   //------------------------------------------------//
   //アクセス時にgasにリクエスト送信→レスポンスを書き込み//
@@ -8,18 +8,19 @@ $(function(){
     //gasのreturnで書き込み↑//
     $('.board-content').append(content);
   }
+})*/
+
+$(function(){
+  function startRequest() {
+    request("DataLoad",["home"],function(Data) {
+      if(Data.error) {
+        alert("error");
+      }
+      else {
+        var res = Data.response.result;
+        $('.board-content').html(res);
+        loaded();
+      }
+    });
+  }
 })
-
-
-function startRequest() {
-  request("DataLoad",["home"],function(Data) {
-    if(Data.error) {
-      alert("error");
-    }
-    else {
-      var res = Data.response.result;
-      $('.board-content').html(res);
-      loaded();
-    }
-  });
-}
