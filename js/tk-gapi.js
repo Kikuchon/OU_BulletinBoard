@@ -9,7 +9,6 @@ function autoAuth() {
       scope: SCOPES,
       immediate: true
     }, authResult);
-    console.log("Auth");
 }
 
 // 手動認証
@@ -31,18 +30,18 @@ function authResult(result) {
   }
 }
 
-/*function request(func,param,callback) {
+function request(func,param,callback) {
   var request = {
     function: func,
     parameters: param
   };
 
-  var op = gapi.client.request({
+/*  var op = gapi.client.request({
     root: 'https://script.googleapis.com',
     path: 'v1/scripts/' + API_ID + ':run',
     method: 'POST',
     body: request
-  });
+  });*/
 
   op.execute(callback/*function(resp) {
     if(resp.error) {
@@ -52,5 +51,5 @@ function authResult(result) {
     else {
       // 実行成功時 (返り値: resp.response.result)
     }
-  }*///);
-//}
+  }*/);
+}
