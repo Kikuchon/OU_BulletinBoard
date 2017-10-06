@@ -31,7 +31,7 @@ function authResult(result) {
   }
 }
 
-function request(func,param,callback) {
+/*function request(func,param,callback) {
   var request = {
     function: func,
     parameters: param
@@ -52,5 +52,5 @@ function request(func,param,callback) {
     else {
       // 実行成功時 (返り値: resp.response.result)
     }
-  }*/);
-}
+  }*///);
+//}
