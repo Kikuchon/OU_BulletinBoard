@@ -43,7 +43,7 @@ function request(func,param,callback) {
     body: request
   });*/
 
-  op.execute(callback/*function(resp) {
+  /*op.execute(callback*//*function(resp) {
     if(resp.error) {
       // 実行エラー時
       appendPre(JSON.stringify(resp, null, 2));
