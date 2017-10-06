@@ -51,5 +51,5 @@ function request(func,param,callback) {
     else {
       // 実行成功時 (返り値: resp.response.result)
     }
-  }*/);
+  });*/
 }
