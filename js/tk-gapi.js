@@ -9,6 +9,7 @@ function autoAuth() {
       scope: SCOPES,
       immediate: true
     }, authResult);
+    console.log("Auth");
 }
 
 // 手動認証
