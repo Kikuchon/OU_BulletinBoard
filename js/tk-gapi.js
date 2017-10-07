@@ -24,6 +24,7 @@ function startAuth() {
 function authResult(result) {
   if (result && !result.error) {
     // 認証成功時
+    startRequest();
   }
   else {
     // 認証失敗 or 未認証時

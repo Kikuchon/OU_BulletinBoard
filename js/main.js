@@ -22,8 +22,3 @@ function startRequest() {
     }
   });
 }
-
-
-$(function(){
-    startRequest();
-})
